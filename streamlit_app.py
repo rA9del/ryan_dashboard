@@ -619,8 +619,7 @@ with col3:
 st.markdown("---")
 st.markdown(f"""
 <div style="text-align: center; padding: 2rem; opacity: 0.7;">
-    <p><strong>Dashboard built with comprehensive data analysis</strong></p>
-    <p>Analyzing {len(df_merged)} films • Last updated: {datetime.now().strftime('%B %d, %Y')}</p>
-    <p><em>Data reveals nuanced relationships between presence, quality, and commercial success</em></p>
+    <p>Last updated: {datetime.now().strftime('%B %d, %Y')}</p>
+    <p><em>Build with data, computer vision and a healthy obsession with Ryan Gosling</em></p>
 </div>
 """, unsafe_allow_html=True)
